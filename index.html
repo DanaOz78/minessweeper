@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="init()">
+    <p class="mines">Mine Sweeper</p>
+
+    <div class="level">
+        <button onclick="selectLevel(1)" id="0">Begginer</button>
+        <button onclick="selectLevel(2)" id="1">Medium</button>
+        <button onclick="selectLevel(3)" id="2">Expert</button>
+    </div>
+
+    <div  class="dashboard" id="dashboard">
+        <span id="score"></span>
+        <span id="bestScore"></span>
+        <span id="timer"></span>
+    </div>
+
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+
+    <div>
+        <button onclick="newGame">new game</button>
+    </div>
+
+      
+    <script src="sprint1.js"></script>
+</body>
+</html>
